@@ -23,19 +23,19 @@
             <a href="#" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
+            <a href="#about" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Menu</a>
+            <a href="#menu" class="nav-link">Menu</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Testimonials</a>
+            <a href="#testimonial" class="nav-link">Testimonials</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Gallery</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
         <button id="menu-open-button" class="fas fa-bars"></button>
@@ -70,7 +70,7 @@
         </div>
       </section>
       <!-- about section -->
-      <section class="about-section">
+      <section class="about-section" id="about">
         <div class="section-content">
           <div class="about-image-wrapper">
             <img src="images/about-image.jpg" alt="About" class="about-image" />
@@ -99,7 +99,7 @@
         </div>
       </section>
       <!-- menu section  -->
-      <section class="menu-section">
+      <section class="menu-section" id="menu">
         <h2 class="section-title">Our Menu</h2>
         <div class="section-content">
           <ul class="menu-list">
@@ -193,7 +193,7 @@
         </div>
       </section>
       <!-- testimonial section -->
-      <section class="testimonial-section">
+      <section class="testimonial-section" id="testimonial">
         <h2 class="section-title">Testimonials</h2>
         <div class="slider-container">
           <div class="slider-wrapper">
@@ -237,12 +237,115 @@
               </li>
             </ul>
           </div>
-          <button class="testimonial-button" id="prevBtn"></button>
+          <button class="testimonial-button" id="prevBtn">←</button>
           <button class="testimonial-button" id="nextBtn">→</button>
         </div>
       </section>
       <!-- gallery section -->
-      <section class="gallery-section"></section>
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img src="images/gallery-1.jpg" alt="" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-2.jpg" alt="" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-3.jpg" alt="" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-4.jpg" alt="" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-5.jpg" alt="" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="images/gallery-6.jpg" alt="" class="gallery-image" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- contact section -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"> </i>
+              <p>145/4 , 2nd lane ,Nugeemulla road, Rukmale</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-envelope"></i>
+              <p>contact@coffeehouse.com</p>
+            </li>
+
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>+94 71 234 5678</p>
+            </li>
+
+            <li class="contact-info">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p>Open Days: Monday – Saturday</p>
+            </li>
+
+            <li class="contact-info">
+              <i class="fa-solid fa-circle-xmark"></i>
+              <p>Closed Day: Sunday</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.coffeehouse.com</p>
+            </li>
+          </ul>
+          <form action="#" class="contact-form">
+            <input
+              type="text"
+              placeholder="Your name "
+              class="form-input"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your email"
+              class="form-input"
+              required
+            />
+            <textarea
+              name=""
+              placeholder="Your Message"
+              id=""
+              class="form-input"
+              required
+            ></textarea>
+            <button class="submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+      <!-- footer section  -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyrights-text">@ 2025 Coffee Shop</p>
+          <div class="social-link-list">
+            <a href="" class="social-link"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="" class="social-link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="" class="social-link"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">.</span>
+            <a href="#" class="policy-link">Refund policy</a>
+          </p>
+        </div>
+      </footer>
     </main>
     <script src="script.js"></script>
   </body>
